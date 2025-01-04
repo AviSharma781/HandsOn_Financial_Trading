@@ -1,6 +1,7 @@
+name: latest_zipline
 channels:
   - conda-forge
-  - intel
+#   - intel
   - defaults
 dependencies:
   - python=3.6
@@ -11,7 +12,7 @@ dependencies:
   - bokeh=0.13.0=py36_1000
   - bottleneck=1.3.2=py36h6434af4_3
   - brotlipy=0.7.0=py36h68aa20f_1001
-  - bzip2=1.0.8=vc14h5832a3a_5
+#   - bzip2=1.0.8=vc14h5832a3a_5
   - ca-certificates=2020.12.5=h5b45459_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
@@ -31,7 +32,7 @@ dependencies:
   - empyrical=0.5.5=pyh9f0ad1d_0
   - ephem=3.7.7.1=py36h779f372_1
   - fbprophet=0.6=py36h6538335_0
-  - freetype=2.10.2=vc14he233217_1
+#   - freetype=2.10.2=vc14he233217_1
   - flask==1.1.2
   - flask-compress==1.8.0
   - greenlet=1.0.0=py36he2d232f_0
@@ -42,7 +43,7 @@ dependencies:
   - holidays=0.10.5.2=pyhd8ed1ab_0
   - idna=2.10=pyh9f0ad1d_0
   - intel-openmp=2020.3=h57928b3_311
-  - intelpython=2021.1.1=1
+#   - intelpython=2021.1.1=1
   - intervaltree=3.0.2=py_0
   - iso3166=1.0.1=pyh9f0ad1d_0
   - iso4217=1.6.20180829=py_0
@@ -56,7 +57,7 @@ dependencies:
   - libiconv=1.16=he774522_0
   - liblapack=3.9.0=8_mkl
   - libnetcdf=4.7.4=nompi_h3a9aa94_107
-  - libpng=1.6.37=vc14he233217_7
+#   - libpng=1.6.37=vc14he233217_7
   - libpython=2.0=py36ha15d459_1
   - libssh2=1.9.0=h680486a_6
   - libxml2=2.9.10=hf5bbc77_3
@@ -127,17 +128,17 @@ dependencies:
   - tornado=6.1=py36h68aa20f_1
   - tqdm=4.59.0=pyhd8ed1ab_0
   - typing_extensions=3.7.4.3=py_0
-  - vc=14.1=h869be7e_15
-  - vs2015_runtime=14.16.27012=hf0eaf9b_15
-  - wheel=0.31.0=py36_3
+#   - vc=14.1=h869be7e_15
+#   - vs2015_runtime=14.16.27012=hf0eaf9b_15
+#   - wheel=0.31.0=py36_3
   - win_inet_pton=1.1.0=py36ha15d459_2
-  - wincertstore=0.2=py36_3
+#   - wincertstore=0.2=py36_3
   - xarray=0.13.0=py_0
   - yaml=0.2.5=he774522_0
   - zict=2.0.0=py_0
   - zipline=1.4.1=py36he774522_0
   - zipp=3.4.1=pyhd8ed1ab_0
-  - zlib=1.2.11.1=vc14hfa6e2cd_1
+#   - zlib=1.2.11.1=vc14hfa6e2cd_1
   - pip:
     - anyio==2.0.2
     - appdirs==1.4.4
